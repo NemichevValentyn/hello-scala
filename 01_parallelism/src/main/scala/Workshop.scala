@@ -33,13 +33,13 @@ object Workshop:
    
 
 
-  @main def runWorkshop(): Unit =
-   println("=== Практика 00: Вмикаємо мозок ===")
+  @main def runWorkshop(): Unit = ()
+  
 
   
     val data: Vector[Double] = (1 to 100).toVector.map(_.toDouble)
 
-    println("\n--- Завдання 1: Демонстрація Race Condition (з var) ---")
+    println("Завдання 1:")
     var totalRisk = 0.0 
 
     data.par.foreach { transactionId =>
@@ -49,7 +49,7 @@ object Workshop:
 
     println(s"Сумарний ризик (некоректний через race condition): $totalRisk")
 
-    println("\n--- Завдання 2: Чистий ФП конвеєр ---")
+    println("Завдання 2:")
     
     val finalRiskSum = data
       .filter(_ > 50.0)
@@ -60,6 +60,6 @@ object Workshop:
       }
       .sum
 
-    println(s"Сумарний фінальний ризик (чистий ФП): $finalRiskSum")
+    println(s"Сумарний фінальний ризик: $finalRiskSum")
 
   def main(args: Array[String]): Unit = runWorkshop()
