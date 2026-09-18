@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\hello-scala_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\classes\Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\classes\Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\classes\Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\classes\hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Admin\hello-scala\target\out\jvm\scala-3.3.3\hello-scala\classes\hello.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-3.3.3/hello-scala/hello-scala_3-0.1.0-SNAPSHOT.jar[0m

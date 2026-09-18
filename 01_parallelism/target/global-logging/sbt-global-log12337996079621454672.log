@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 2258f502-4b6c-46c7-868b-db2d8bd4d265 __06e1e3b3-5766-483a-b904-740ff00a3820, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(__06e1e3b3-5766-483a-b904-740ff00a3820), Some(CommandSource(network-5)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1789751754601,"message":"Compiling root-01_parallelism","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Admin/functional_programming/01_parallelism/#root-01_parallelism/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1789751754609,"message":"Compiled root-01_parallelism","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Admin/functional_programming/01_parallelism/#root-01_parallelism/Compile"},"errors":0,"warnings":0,"time":8,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/clientJob, {"runInfo":{"jvm":true,"jvmRunInfo":{"args":[],"classpath":[{"path":"file:///C:/Users/Admin/functional_programming/01_parallelism/target/bg-jobs/sbt_dd650918/job-4/target/eed91d5a/a2f43372/01_parallelism_3-1.0.jar","digest":""},{"path":"file:///C:/Users/Admin/functional_programming/01_parallelism/target/bg-jobs/sbt_dd650918/target/c49f639b/82286d6c/scala3-library_3-3.3.3.jar","digest":""},{"path":"file:///C:/Users/Admin/functional_programming/01_parallelism/target/bg-jobs/sbt_dd650918/target/f7c4adeb/8ce4f8f0/scala-parallel-collections_3-1.0.4.jar","digest":""},{"path":"file:///C:/Users/Admin/functional_programming/01_parallelism/target/bg-jobs/sbt_dd650918/target/ea541f26/ffe73536/scala-library-2.13.12.jar","digest":""}],"mainClass":"Main","connectInput":true,"javaHome":"file:///C:/Program%20Files/Eclipse%20Adoptium/jdk-25.0.4.101-hotspot","workingDirectory":"file:///C:/Users/Admin/functional_programming/01_parallelism","jvmOptions":[],"environmentVariables":{},"inputs":[],"outputs":[]},"windowTitle":"sbt run: 01_parallelism % 01_parallelism % 1.0"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtCompleteExec 2258f502-4b6c-46c7-868b-db2d8bd4d265, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 2258f502-4b6c-46c7-868b-db2d8bd4d265, Some(2258f502-4b6c-46c7-868b-db2d8bd4d265), Some(CommandSource(network-5)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m

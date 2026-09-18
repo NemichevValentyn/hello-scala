@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\Admin\functional_programming\01_parallelism\target\out\jvm\scala-3.3.3\01_parallelism\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$HighRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$MediumRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runWorkshop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$RiskLevel.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Workshop$LowRisk$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\Admin\functional_programming\01_parallelism\target\out\jvm\scala-3.3.3\01_parallelism\classes.bak[0m
