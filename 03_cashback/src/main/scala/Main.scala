@@ -24,3 +24,4 @@ import cashback.ApplyResult.*
       println(s"Виведено за весь час:    ${account.totalWithdrawnAmount.show}")
     case Rejected(reason) =>
       println(s"Помилка обробки подій: $reason")
+

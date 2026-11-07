@@ -9,3 +9,4 @@ lazy val root = (project in file("."))
       "org.scalatest" %% "scalatest" % "3.2.19" % Test
     )
   )
+

@@ -80,3 +80,4 @@ class CashbackAccountSpec extends AnyFunSuite:
         assert(reason.contains("Недостатньо"))
       case Ok(_) =>
         fail("Овердрафт мав бути заборонений")
+

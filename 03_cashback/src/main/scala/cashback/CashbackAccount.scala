@@ -133,3 +133,4 @@ object CashbackAccount:
       minWithdrawal: Money = Money(100)
   ): ApplyResult =
     empty(minWithdrawal).applyEvents(events)
+

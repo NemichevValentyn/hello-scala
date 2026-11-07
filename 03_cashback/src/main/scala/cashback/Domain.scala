@@ -50,3 +50,4 @@ enum CashbackEvent:
 enum ApplyResult:
   case Ok(account: CashbackAccount)
   case Rejected(reason: String)
+
