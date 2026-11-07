@@ -1,0 +1,18 @@
+{
+  "variantId": 5,
+  "slug": "bank_cashback_account",
+  "rows": 500000,
+  "seed": 5000057,
+  "errorRate": 0.05,
+  "rowOutcomes": {
+    "valid": 474841,
+    "unknown_event": 2982,
+    "type_money_malformed": 6677,
+    "column_count": 2023,
+    "type_percent_out_of_range": 2908,
+    "type_money_non_positive": 6586,
+    "type_token_invalid": 2760,
+    "empty_event": 1223
+  },
+  "csv": "testdata/variant_05_bank_cashback_account.csv"
+}
