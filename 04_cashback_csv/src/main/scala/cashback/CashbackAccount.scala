@@ -4,13 +4,6 @@ import scala.annotation.tailrec
 
 final case class AccrualLot(category: Category, remaining: Money)
 
-/**
- * Стан кешбек-рахунку після згортання журналу.
- *
- * Повернення списує найстаріші ще живі нарахування (FIFO) і зменшує суму
- * відповідної категорії. Партнерський бонус збільшує лише доступний баланс.
- * Виведення менше 100 грн не змінює стан.
- */
 final case class CashbackAccount(
   available: Money = Money.zero,
   categoryAccruals: Map[Category, Money] = Map.empty,
