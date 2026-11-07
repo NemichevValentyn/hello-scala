@@ -107,7 +107,7 @@ class CashbackImportSpec extends AnyFunSuite:
 
   test("повний журнал на 500000 рядків ділить рейки і тримає інваріант"):
     val file = bigLog
-    assert(file.isFile, s"Немає ${file.getPath}. Команда генерації є в README.")
+    assert(file.isFile, s"Немає ${file.getPath}")
     val lines = fileLines(file)
     val report = Journal.load(lines)
     val dataRows = lines.size - 1
