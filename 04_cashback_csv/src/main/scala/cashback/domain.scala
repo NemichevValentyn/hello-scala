@@ -6,7 +6,6 @@ opaque type Money = BigDecimal
 
 object Money:
   private val Max = BigDecimal("9999999.99")
-  private val Decimal = """-?\d+(\.\d+)?""".r
 
   def apply(value: BigDecimal): Money = value.setScale(2, RoundingMode.HALF_UP)
   def apply(value: Int): Money = apply(BigDecimal(value))
@@ -23,10 +22,15 @@ object Money:
   private[cashback] def parseDecimal(raw: String, label: String): Either[String, BigDecimal] =
     val trimmed = raw.trim
     if trimmed.isEmpty then Left(s"$label відсутня")
-    else if !Decimal.matches(trimmed) then Left(s"Некоректний запис $label")
+    else if !isPlainDecimal(trimmed) then Left(s"Некоректний запис $label")
     else
       try Right(BigDecimal(trimmed))
       catch case _: NumberFormatException => Left(s"Некоректний запис $label")
+
+  private def isPlainDecimal(raw: String): Boolean =
+    val unsigned = if raw.startsWith("-") then raw.drop(1) else raw
+    val parts = unsigned.split("\\.", -1)
+    parts.length <= 2 && parts.forall(part => part.nonEmpty && part.forall(_.isDigit))
 
   extension (m: Money)
     def toBigDecimal: BigDecimal = m
